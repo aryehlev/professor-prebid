@@ -247,6 +247,18 @@ export interface IPrebidBid {
     buyerId: number;
     advertiserDomains: string[];
     clickUrl: string;
+    advertiserId: string,
+    advertiserName: string,
+    agencyId: string,
+    agencyName: string,
+    brandId: string,
+    brandName: string,
+    demandSource: string,
+    mediaType: string,
+    networkName: string,
+    primaryCatId: string,
+    secondaryCatIds: string,
+    dchain:object
   };
   native: object;
   netRevenue: true;
